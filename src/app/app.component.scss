@@ -1,0 +1,35 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.cafenele {
+  cursor: pointer;
+}
+
+.cafenele:hover {
+  color: rgb(255, 213, 0);
+}
+
+.container {
+  display: flex;
+  font-size: 15px;
+  color: white;
+}
+
+.flex-child {
+  margin-top: 20px;
+  flex: 1;
+}
+
+.mat-tree {
+  background: none;
+}
+
+.title {
+  margin-left: 30px;
+  color: white;
+  font-size: 35px;
+}

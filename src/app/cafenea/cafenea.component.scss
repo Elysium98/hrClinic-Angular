@@ -1,0 +1,65 @@
+.centered {
+  text-align: center;
+  font-size: 25px !important;
+}
+
+.mat-table {
+  background: white;
+}
+
+.mat-cell {
+  padding-left: 10px;
+  font-size: 14px;
+  border-right: 1px solid rgba(56, 53, 53, 0.24);
+}
+
+th {
+  /* row border */
+  border-bottom: 1px solid rgba(56, 53, 53, 0.24);
+}
+
+.mat-header-cell {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+/*change color of underline when hover*/
+:host ::ng-deep .mat-form-field-underline .mat-form-field-ripple {
+  background-color: rgb(0, 0, 0);
+}
+
+/*change color of underline when focused*/
+:host ::ng-deep.mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: rgb(0, 0, 0);
+}
+
+/*change color of label when focused*/
+::ng-deep.mat-focused .mat-form-field-label {
+  color: rgb(0, 0, 0) !important;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: rgba(255, 255, 255, 0.906);
+}
+
+::ng-deep .mat-form-field-appearance-fill .under {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  padding: 0 0 0 0 !important;
+}
+
+.input {
+  font-size: 18px;
+  width: 30%;
+  color: black;
+}
+
+.message {
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
